@@ -45,7 +45,7 @@
     </section>
 
     <!-- Experience -->
-    <section class="p-8 experience flex flex-col bg-background mt-16 mb-16 border-t-1 border-b-1 border-white py-20">
+    <section class="p-8 experience flex flex-col bg-background mt-0,5 mb-0,5 border-t-1 border-b-1 border-white py-20">
       <ul class="flex flex-col gap-4">
 
         <li class="html text-text font-bold text-3xl text-center mb-8">HTML
@@ -78,7 +78,7 @@
 
 
       <!-- projects -->
-       <section class="p-8 projects flex flex-col bg-background mt-0.5 ">
+       <section class="p-8 projects flex flex-col bg-background">
           <ul class="flex flex-col items-center justify-center text-center">
             <li class="items font-bold text-text text-3xl mb-4">Projects</li>
             <li class="items font-bold text-underline underline decoration-underline underline-offset-5 pt-4">CONTACT ME</li>
@@ -173,10 +173,26 @@
       <!-- contact -->
       <section class="bg-contact">
          <article class="flex p-8 flex-col gap-4">
-         <h4 class="text-2xl text-text">Contact</h4>
-         <p class="text-subtext">I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
-      </article>
-      
-      </section>
+           <h4 class="text-3xl font-bold text-text">Contact</h4>
+           <p class="text-text">
+             I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.
+           </p>
+           <ul class="flex flex-col gap-6 text-subtext pt-2">
+             <li>
+               <input type="text" placeholder="NAME" class="bg-contact border-0 border-b border-subtext focus:outline-none focus:border-underline py-2" />
+             </li>
+             <li>
+               <input type="text" placeholder="EMAIL" class="bg-contact border-0 border-b border-subtext focus:outline-none focus:border-underline py-2" />
+             </li>
+             <li>
+               <textarea name="message" id="message" cols="30" rows="4" placeholder="MESSAGE" class="bg-contact border-0 border-b border-subtext focus:outline-none focus:border-underline py-2"></textarea>
+             </li>
+             <li class="flex text-underline underline underline-offset-4">
+               <a href="#">SEND MESSAGE</a>
+             </li>
+           </ul>
+         </article>
+       </section>
+       
    </body>
 </html>
